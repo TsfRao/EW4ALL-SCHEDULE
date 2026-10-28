@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>UN/Pakistan EW4All Conference · Schedule</title>
+<style>
+:root{--bg:#f6f8fb;--fg:#12263f;--mut:#5b6b80;--card:#fff;--bd:#d9e0ea;--acc:#0b4f9c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1726;--fg:#e8eef7;--mut:#9fb0c6;--card:#15233a;--bd:#263a58;--acc:#6fb1ff}}
+:root[data-theme="dark"]{--bg:#0d1726;--fg:#e8eef7;--mut:#9fb0c6;--card:#15233a;--bd:#263a58;--acc:#6fb1ff}
+html{background:var(--bg)}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:14px}
+h1{font-size:18px;margin:0 0 2px}h2{font-size:14px;margin:18px 0 6px;color:var(--acc)}h3{font-size:15px;margin:4px 0}
+.m{color:var(--mut);font-size:13px}.w{color:#c27803;font-size:13px;margin-top:4px}
+#ban{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:10px;margin:10px 0;font-size:14px}
+input{width:100%;box-sizing:border-box;padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--fg);font:inherit}
+#tabs{display:flex;gap:6px;overflow-x:auto;margin:10px 0;padding-bottom:2px}
+button,.a a{font:inherit;border:1px solid var(--bd);background:var(--card);color:var(--fg);border-radius:20px;padding:6px 12px;cursor:pointer;white-space:nowrap;text-decoration:none;font-size:13px}
+button[aria-pressed="true"]{background:var(--acc);color:var(--bg);border-color:var(--acc)}
+.c{background:var(--card);border:1px solid var(--bd);border-left:4px solid #8a97a8;border-radius:10px;padding:10px 12px;margin:8px 0}
+.c.T{border-left-color:#2f80ed}.c.P{border-left-color:#9b51e0}.c.K{border-left-color:#e2a000}.c.C{border-left-color:#27ae60}.c.V{border-left-color:#eb5757}
+.t{font-weight:600;font-size:13px}.tag{font-weight:400;color:var(--mut);margin-left:6px}
+.a{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}footer{margin:22px 0 8px;font-size:12px;color:var(--mut)}
+</style></head><body><main>
+<h1>EW4All, Climate Action &amp; Disaster Risk Assessment</h1>
+<div class="m">UN/Pakistan International Conference · 27–31 Oct 2026 · Sheesh Mahal Hall, Serena Hotel, Islamabad · all times PKT (UTC+5)</div>
+<div id="ban"></div>
+<input id="q" type="search" placeholder="Search a name, topic, organisation or session" aria-label="Search the schedule">
+<div id="tabs" role="tablist"></div>
+<div id="out"></div>
+<footer>Unofficial prototype built from the Programme Book. Please verify details with the organisers. ⚠ marks items flagged for confirmation. Long titles may be lightly shortened. Add-to-calendar uses Google Calendar; push reminders and an offline mode come in the next release.</footer>
+</main>
+<script>
+const TY={C:"Ceremony",K:"Keynote",P:"Panel",T:"Talk",V:"Visit"},DN={27:"Tue",28:"Wed",29:"Thu",30:"Fri",31:"Sat"};
+const S={IN:"Inaugural Ceremony",KP:"Keynote Plenary · Leadership Perspectives on Space-Based Solutions · Moderator: Dr. Hamid Mehmood",
+P1:"Panel Discussion 1 · Moderator: Joerg G. Szarzynski",T1:"Technical Session 1 · Leveraging Space Technology for EW4All · Moderator: Dr. Muhammad Iqbal",
+T2:"Technical Session 2 · Disaster Risk Assessment · Moderator: Dr. Aamir Ali",T3:"Technical Session 3 · Disaster Risk Assessment · Moderator: Dr. Aamir Ali",
+T4:"Technical Session 4 · Disaster Risk Assessment · Moderator: Faisal Karim",P2:"Panel Discussion 2 · Moderator: Dr. Kamal Ahmed (NDMA)",
+T5:"Technical Session 5 · Geospatial Technology for Sendai Framework · Moderator: Dr. Matee ul Haq",T6:"Technical Session 6 · Space for Climate Actions · Moderator: Dr. Jawad Nasir",
+T7:"Technical Session 7 · Space for Climate Actions · Moderator: Dr. Jawad Nasir",P3:"Panel Discussion 3 · Moderator: Dr. Ahmed Ali Gul",
+T8:"Technical Session 8 · Climate Risk and Governance · Moderator: Dr. Muhammad Iqbal",P4:"Panel Discussion 4 · Moderator: Dr. Hamid Mehmood",
+T9:"Technical Session 9 · Innovative Tools and GeoAI · Moderator: Dr. Imtnan ul Haq Qazi",P5:"Panel Discussion 5 · Moderator: Dr. Sami Ullah Khan",
+T10:"Technical Session 10 · Rising Voices: Youth-Led Climate Research and Action · Moderator: Yusha Anis",NV:"Technical Visit",CL:"Closing Ceremony"};
+const D=`27|1000|1130|C|IN|Inaugural Ceremony (registration and badge collection from 0900)|Aarti Holla-Maini (UNOOSA), Munir Ahmad Asad (ISNET), Jiang Hui (APSCO), Mohammad Yousuf Khan (SUPARCO); Chief Guest H.E. Prof. Ahsan Iqbal
+27|1130|1145|K|KP|Keynote|Lara Prades Lopez-Rey|Chief, Analytics & Location Intelligence Unit, UN Global Service Center, Spain
+27|1145|1200|K|KP|Keynote|Raja Nasir Ali Khan|Minister for Forest, Wildlife & Environment, Gilgit-Baltistan
+27|1200|1215|K|KP|Keynote|Maj Gen Aamir Nadeem (Retd)|Ex-Chairman SUPARCO
+27|1215|1230|K|KP|Keynote|Awais Manzur Sumra|Secretary, Ministry of Climate Change
+27|1230|1245|K|KP|Keynote|Amb. Khalil Hashmi|Additional Secretary ACDIS, MOFA
+27|1400|1530|P|P1|EW4All – How far are we?|Panelists: Furrukh Bashir (PMD), Asif Turangzai (ADB), Amir Riaz (ITU), Muhammad Aurangzeb (Ev-K2-CNR), Muhammad Hanif (World Bank), Amjad Ali (SUPARCO), MoCC representative (TBC)
+27|1600|1615|T|T1|UN Early Warning 4 ALL Initiative: Role of UN-SPIDER|Lara Prades Lopez-Rey|UN Global Service Center, Spain
+27|1610|1630|T|T1|Early Warning for All – Inadequacies and Way Forward|Dr. Muhammad Farooq|DDG SAACS, SUPARCO|Overlaps the previous slot as printed
+27|1630|1640|T|T1|From Space Data to Early Action: Kenya Space Agency’s Emerging Role in Advancing EW4All in Africa|Erick Villa Okeyo|Kenya Space Agency
+27|1640|1650|T|T1|Remote Sensing for Disaster Early Warning in Vietnam|Quoc Vuong Doan|National Remote Sensing Dept, MAE, Vietnam
+27|1650|1700|T|T1|Space Technologies for Early Warning Systems and Natural Risk Management in Tunisia|Sinen Garbouj|National Centre for Cartography and Remote Sensing, Tunisia
+28|0900|0915|T|T2|Pakistan’s National Catastrophe Risk Modelling (NatCat)|Amir Goraya / Mubashar Hussain|NDRMF
+28|0915|0930|T|T2|Towards Evidence-based Flood Risk Reduction in Pakistan|Dr. Ahmed Ali Gul|University of Management and Technology
+28|0930|0940|T|T2|GLOF Risk Assessment and Early Warning: Advancing Climate Resilience in Pakistan|Dr. Matee Ul Haq|Director SACRED, SUPARCO
+28|0940|0950|T|T2|Integrating Multi-Scale Remote Sensing and Rapid Response: Lessons from the 2025 Sumatra Floods and Landslides|Munawaroh|BRIN, Indonesia
+28|0950|1000|T|T2|High-Resolution Earth Observation for Climate Action and Multi-Hazard Risk Assessment: Khayyam Satellite Data|Ahmad Soleymani|Iranian Space Research Center
+28|1015|1025|T|T3|Leveraging Türkiye’s National Earth Observation Ecosystem for Early Warning, Climate Action and DRA|Kaan Kalan|TUBITAK Space Technologies Research Institute
+28|1025|1035|T|T3|Lessons from Climate-Related Disasters in Indonesia: Integrating Space Technology|Fahmi Amhar|BRIN, Indonesia
+28|1035|1045|T|T3|Flood Risk Scenario Resulting from a Haditha Dam Collapse|Ammar Abd Jasim|Space Research and Technology Center, Iraq
+28|1045|1055|T|T3|Spatial Analysis of Flood Risk through Hydrodynamic Modelling and Steps for Flood Risk Reduction|Mohammad Tarak Aziz|Network for Information and Response in Disaster, Bangladesh
+28|1055|1105|T|T3|Rapid Geospatial Impact Assessment and Predictive Flood Risk Evaluation: The 2025 Pakistan Floods|Raheela Naz|GIS Lab, Punjab Forest Department
+28|1105|1115|T|T3|Natural Ecosystems Early Warning: Is Satellite Data Enough?|Somayeh Naseri|Agriculture and Natural Resources Research Center, Semnan, Iran
+28|1145|1200|T|T4|SADC Hazard Watch: Space-Enabled Multi-Hazard Early Warning for 16 Member States|Antonio Jose Beleza|SHOC, SADC, Mozambique
+28|1200|1215|T|T4|Predictive Satellite Analytics for Flood Resilience: Space Law & Geospatial Data in Climate Crisis|Ahmed Kamal Mandokhe|United Nations
+28|1215|1225|T|T4|TBC|Jorge Luis Vazquez-Aguirre|Universidad Veracruzana, Mexico
+28|1225|1235|T|T4|Earthquake Precursors from Space-Based GNSS and Other Remote Sensing Satellites: An Insight|Munawar Shah|Institute of Space Technology Islamabad
+28|1235|1245|T|T4|Satellite-Based Coastal Dynamics Monitoring: Shoreline Change, Erosion and Climate-Driven Risks in Pakistan|Dr. Suhaib Bin Farhan|A/Director Earth Sciences, SUPARCO
+28|1245|1255|T|T4|TBC|Dr. Muhammad Nouman|Manager, SUPARCO
+28|1400|1530|P|P2|Sendai Framework for Disaster Risk Reduction – Pakistan Progress|Panelists: NDMA representative, Joerg G. Szarzynski (UN-SPIDER), Dr. Ahmed Ali Gul (UMT), Kaan Kalkan (TUBITAK), Falak Nawaz (NDMP), Mareike Bentfeld (GIZ)
+28|1600|1615|T|T5|Role of UN SPIDER in Sendai Framework (SFDRR) 2015-30|Joerg Guenter Szarzynski|Head, UN-SPIDER Bonn Office
+28|1615|1630|T|T5|From Regional Warning to Regional Response: How SADC Turns Space-Based Risk Intelligence into Coordinated Action|Anderson Banda|SHOC, SADC, Zambia
+28|1630|1645|T|T5|Orographic Correction of Precipitation with a Distributed Hydrologic Model and Remote-Sensing Data in the Third Pole Environment|Maheswor Shrestha|Ministry of Energy, Water Resources and Irrigation, Nepal
+28|1645|1655|T|T5|From Multi-Hazard Assessment to Risk Informed Disaster Management: Integrated Geospatial MHVRA Framework for Sindh|Dr. Aamir Ali|General Manager, SUPARCO
+28|1655|1705|T|T5|From Field to Satellite: Water Risk Roadmap|Abdul Ghani|WWF-Pakistan
+28|1705|1715|T|T5|Satellite Data for Flood Recovery Accountability|Muhammad|Independent
+29|0900|0915|T|T6|Monitoring Aerosol Components and Carbon Emissions in the Asia Pacific Region using Satellite Remote Sensing|Li Shenshen|Aerospace Information Research Institute, China
+29|0915|0930|T|T6|Digital Forestry|Dr. Samiullah Dawar|University of Haripur
+29|0930|0940|T|T6|Predictive Satellite Analytics for Flood Resilience, Space Law & Geospatial Data in Climate Crisis|Kamal Ahmed|Deputy Director Planning, Ministry of Climate Change
+29|0940|0950|T|T6|Pixels to Products: Space Enabled Geospatial Forest Early Warning System|Dr. Ibrar ul Hassan|General Manager, SUPARCO
+29|0950|1000|T|T6|Pakistan’s Temperature Extremes: 25 Years of Heat and Cold Waves|Yusha Anis|General Manager, SUPARCO
+29|1015|1025|T|T7|Groundwater Storage Recovery After Flooding: Reconstructing GRACE Anomalies Using Well-Derived Storage Estimates|Syed Zaheer Hussain|Punjab Information Technology Board
+29|1025|1035|T|T7|Understanding Urban Smog: From Satellite Remote Sensing to Aerosol Speciation and Source Apportionment|Shoaib Shafique|General Manager, SUPARCO
+29|1035|1045|T|T7|Lessons from the First-Batch APSCO DSSP Project on Urban Air Quality in Greater Bangkok|Kasemsan Manomaiphiboon|The Joint Graduate School, Thailand
+29|1045|1055|T|T7|Assessing Climate Change Impacts on Agriculture: Satellite-Based Crop Monitoring, Food Security and Climate Resilience|Obaid ur Rehman|GM Agriculture, SUPARCO
+29|1055|1105|T|T7|Sustainable Agricultural Water Management by Integrating Earth Observation and Ground Measurements|Wakas Karim Awan|FAO
+29|1105|1115|T|T7|Glacier Mapping in Northern Pakistan under EvK2CNR (TBC)|Dr. Maria Teresa Melis|University of Milan, Italy
+29|1130|1300|P|P3|Climate Change Actions – Resilient Infrastructure|Panelists: Dr. Waqas Anwar (Planning Commission), Ahmed Kamal (ex-Federal Flood Commission), Amir Khan Goraya (NDRMF), Bilal Khalid (World Bank), Ayesha Mahmood (NHA), Dr. Muhammad Farooq (SUPARCO)
+29|1400|1415|T|T8|Habitat Marte Space Analog Station: Lessons for Climate Resilience, Disaster Preparedness and Proactive Risk Management|Júlio Francisco Dantas De Rezende|UFRN, Brazil
+29|1415|1430|T|T8|Geospatial Approaches for Monitoring Climate-Induced Multi-Hazard Risk in the Hindu Kush Region|Dr. Atta Ur Rahman|University of Peshawar
+29|1430|1440|T|T8|TBC|Enes Yildirim|Giresun University / Turkish Space Agency
+29|1440|1450|T|T8|An Eye from Space: Monitoring the Caspian Sea for Coastal and Offshore Resilience|Aytan Zeynalli|Azercosmos
+29|1450|1500|T|T8|Climate Risk Financing and Insurance: Space-Based Intelligence for Resilient Banking and Disaster Risk Protection|Dr. Muhammad Ibrahim|GM SAAS, SUPARCO
+29|1500|1510|T|T8|Democratization of Space-Based Climate Intelligence: A Four-Dimensional Governance Framework for Pakistan under EW4All|Muhammad Khalid Javed|NDU / ISPR
+29|1510|1520|T|T8|Climate-Driven Random Forest Modeling of Groundwater Levels for Drought Anticipation in the Quetta Sub-Basin|Naresh Kumar Guriro|USPCAS-W
+29|1520|1530|T|T8|Climate Risk Mapping for Pacific Islands|Nanise Sowani|Excelsior Global Hub, Fiji
+29|1530|1700|P|P4|Climate Risk Financing through Technology-Enabled Hazard Detection and Crop Yield Loss Estimation|Panelists: Syed Ahmer Shoaib (Adamjee Insurance), Nadeem Khanzada (SBP), Dr. Waseem (SECP), Salman Mian (ADB), Rafay Khan (World Bank), Dr. Amjad Ali (SUPARCO)
+30|0900|0915|T|T9|Digital Twin for Emergency Response|Lara Prades Lopez-Rey|UN Global Service Center, Spain
+30|0915|0930|T|T9|Responsible and Ethical Geo-AI for DRR|Dr. Hamid Mehmood|Head, UN-SPIDER Beijing Office
+30|0930|0940|T|T9|GeoAI-Driven Multi-Hazard Risk Assessment in Coastal Bangladesh: Cox’s Bazar District|Muhammad Al-Amin Hoque|Jagannath University, Bangladesh
+30|0940|0950|T|T9|GeoAI: From Earth Observation to Intelligent Actions|Rao Muhammad Saeed Ali|Manager, SACRED, SUPARCO
+30|0950|1000|T|T9|ClimaLung: Leveraging AI to Analyze Climate Change’s Impact on Lung Health|Dr. Saman Shahid|NUCES FAST Lahore
+30|1000|1010|T|T9|Agentic AI for Proactive Early Warning Systems|Muhammad Usman Mughal|Taleemabad (Powered by Orenda)
+30|1010|1020|T|T9|Modelling a Large Data-Limited Watershed using Conventional Modelling and Remote Sensing|Muhammad Adnan|Military Engineer Services Pakistan
+30|1100|1230|P|P5|Paris Climate Change Agreement – How space can help in realization|Panelists: Dr. Syed Moazzam Nizami (MoCC), Lorant Czaran (UNOOSA), Syed Abrar Hussain (Pak EPA), Li Shenshen (AIR, China), Muhammad Arif Goheer (GCISC), Dr. Fahim Khokar (NUST), Dr. Amjad Ali (SUPARCO)
+30|1400|1410|T|T10|Space-Based Estimation of Landslide Failure Surfaces and Volumes: The 2023 Domeshi Landslide, NW Himalaya|Malik Talha Riaz|University of Silesia, Poland
+30|1410|1420|T|T10|Satellite-Based Flood Modelling and Inundation Mapping for Early Warning in Pakistan|Sehrish Fida|SACRED, SUPARCO
+30|1420|1430|T|T10|From Snow-Cover Change to GLOF Hazard: Hunza Basin, Pakistan|Ali Hassan|PMAS Arid Agriculture University
+30|1430|1440|T|T10|A Globally Transferable Deep Learning Framework for Streamflow Prediction in Ungauged Basins|Farjad Aziz|GIK Institute
+30|1440|1450|T|T10|FLOWS-GeoAI: Flood Workflow Orchestration for Semi-Autonomous GeoAI Decision Support|Tuseef Ahmad|NUTECH Islamabad
+30|1450|1500|T|T10|Regional Climate Dynamics and Extreme Event Signatures Across Pakistan’s Homogeneous Climatic Regimes|Waqas Raza Arshad|University of Agriculture Faisalabad
+30|1500|1510|T|T10|Urban Subsidence Monitoring with Sentinel-1 InSAR|Hassan Masood|The Map Ventures
+30|1510|1520|T|T10|Space-Integrated Edge-Native Sensor Nodes for Decentralized Early Warning Systems|Abdullah Mehboob|GIKI
+30|1520|1530|T|T10|ENSO Influence on Land Surface Temperature and Aerosol Optical Depth over Pakistan (2000–2022)|Hafsa Anwar|Institute of Space Science, University of the Punjab
+30|1530|1540|T|T10|Estimation of Above Ground Biomass using LiDAR, Machine Learning and Deep Learning|Onaiza Nawaz|NUST Islamabad
+30|1540|1740|V|NV|Technical Visit to NDMA (National Disaster Management Authority, Islamabad)|Briefing, early warning demonstrations and expert interaction||Follows Rising Voices (Technical Session 10). Printed as 1400–1600; the start and end times shown here are provisional and need confirming.
+31|0930|1200|C|CL|Closing Ceremony|Lorant Czaran (UNOOSA), Mohammad Yousuf Khan (SUPARCO), Chief Guest; inauguration of the Pakistan Kazakhstan Joint Climate Laboratory`;
+const I=D.trim().split("\n").map((l,i)=>{const a=l.split("|");return{i,d:+a[0],s:+a[1],e:+a[2],ty:a[3],c:a[4],t:a[5],w:a[6]||"",o:a[7]||"",n:a[8]||""}}).sort((a,b)=>a.d-b.d||a.s-b.s||a.i-b.i);
+const byId={};I.forEach(x=>byId[x.i]=x);
+let st=new Set();try{st=new Set(JSON.parse(localStorage.getItem("ew4all26")||"[]"))}catch(e){}
+const save=()=>{try{localStorage.setItem("ew4all26",JSON.stringify([...st]))}catch(e){}};
+const esc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const p4=n=>String(n).padStart(4,"0"),f=n=>p4(n).replace(/(..)(..)/,"$1:$2");
+const gc=x=>"https://calendar.google.com/calendar/render?action=TEMPLATE&text="+encodeURIComponent(x.t)+"&dates=202610"+x.d+"T"+p4(x.s)+"00/202610"+x.d+"T"+p4(x.e)+"00&ctz=Asia%2FKarachi&location="+encodeURIComponent("Sheesh Mahal Hall, Serena Hotel, Islamabad")+"&details="+encodeURIComponent((x.w?x.w+" · ":"")+S[x.c]);
+const pkt=()=>{const n=new Date();return new Date(n.getTime()+(300+n.getTimezoneOffset())*60000)};
+let tab="27",q="";
+const p0=pkt(),ymd0=p0.getFullYear()*10000+(p0.getMonth()+1)*100+p0.getDate();
+if(ymd0>=20261027&&ymd0<=20261031)tab=String(ymd0-20261000);
+function card(x){const on=st.has(x.i);return `<article class="c ${x.ty}"><div class="t">${f(x.s)}–${f(x.e)}<span class="tag">${TY[x.ty]}</span></div><h3>${esc(x.t)}</h3>${x.w?`<div>${esc(x.w)}</div>`:""}${x.o?`<div class="m">${esc(x.o)}</div>`:""}<div class="m">${esc(S[x.c])}</div>${x.n?`<div class="w">⚠ ${esc(x.n)}</div>`:""}<div class="a"><button data-s="${x.i}" aria-pressed="${on}">${on?"★ Saved":"☆ Save"}</button><a target="_blank" rel="noopener" href="${gc(x)}">Add to Google Calendar</a></div></article>`}
+function banner(){const p=pkt(),ymd=p.getFullYear()*10000+(p.getMonth()+1)*100+p.getDate(),b=document.getElementById("ban");
+if(ymd<20261027){b.textContent="The conference starts Tuesday 27 Oct 2026. Registration and badge collection open at 09:00 PKT.";return}
+if(ymd>20261031){b.textContent="The conference has ended. Thank you to all speakers and participants.";return}
+const d=ymd-20261000,h=p.getHours()*100+p.getMinutes(),cur=I.filter(x=>x.d==d&&x.s<=h&&h<x.e),nx=I.find(x=>x.d>d||(x.d==d&&x.s>h));
+b.innerHTML=(cur.length?"<b>Now:</b> "+cur.map(x=>esc(x.t)+" ("+f(x.s)+"–"+f(x.e)+")").join("<br>")+"<br>":"")+(nx?"<b>Next:</b> "+esc(nx.t)+" · "+DN[nx.d]+" "+f(nx.s):"")}
+function render(){const out=document.getElementById("out");let L;
+if(q){const k=q.toLowerCase();L=I.filter(x=>(x.t+" "+x.w+" "+x.o+" "+S[x.c]).toLowerCase().includes(k))}
+else if(tab=="my")L=I.filter(x=>st.has(x.i));else L=I.filter(x=>x.d==+tab);
+let h="";
+if(!q&&tab=="my"){const cf=[];for(let a=0;a<L.length;a++)for(let b=a+1;b<L.length;b++)if(L[a].d==L[b].d&&L[a].s<L[b].e&&L[b].s<L[a].e)cf.push(L[a].t+" ⟷ "+L[b].t);
+if(cf.length)h+=`<div class="c"><div class="w">⚠ Time conflicts in your schedule</div>${cf.map(c=>`<div class="m">${esc(c)}</div>`).join("")}</div>`}
+if(!L.length)h+=`<p class="m">${tab=="my"&&!q?"Nothing saved yet. Tap ☆ Save on any session.":"No matching sessions."}</p>`;
+let last=0;L.forEach(x=>{if((q||tab=="my")&&x.d!=last){last=x.d;h+=`<h2>${DN[x.d]} ${x.d} Oct</h2>`}h+=card(x)});
+out.innerHTML=h;
+document.getElementById("tabs").innerHTML=[27,28,29,30,31].map(d=>`<button data-t="${d}" aria-pressed="${!q&&tab==d}">${DN[d]} ${d}</button>`).join("")+`<button data-t="my" aria-pressed="${!q&&tab=="my"}">★ My schedule (${st.size})</button>`}
+document.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;
+if(b.dataset.t){tab=b.dataset.t;q="";document.getElementById("q").value="";render()}
+else if(b.dataset.s){const i=+b.dataset.s;st.has(i)?st.delete(i):st.add(i);save();render()}});
+document.getElementById("q").addEventListener("input",e=>{q=e.target.value.trim();render()});
+banner();render();setInterval(banner,60000);
+</script></body></html>
